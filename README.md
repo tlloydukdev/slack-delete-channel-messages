@@ -36,7 +36,7 @@ To use the script you must create a Slack app that has the required permissions 
 10. Under *User Token Scopes* click **Add an OAuth Scope** and add `chat:write` ![til](./assets/scopes.png)
 11. Scroll to the top and click **Install to Workspace**
 12. Copy the **User OAuth Token** into the `USER_TOKEN` property in `.env`
-13. Copy the **Bot User OAuth Token** into the `BOT_TOKEN` property in `.env`
+13. Copy the **Bot User OAuth Token** into the `BOT_TOKEN` property in `.env`![til](./assets/tokens.png)
 14. Go to your Slack client and `/invite @deletor` into the channel you want to remove messages from
 15. Run the script and follow the prompts `node index.js`
 
